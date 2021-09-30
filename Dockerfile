@@ -1,4 +1,4 @@
-FROM docker:latest
+FROM docker:19
 
 RUN set -e -x \
     && apk update \
